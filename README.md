@@ -4,7 +4,7 @@ Esse repositório faz parte da etapa de avaliação para a vaga de QA e tem como
 
 ## Pré-requisitos:
 
-Certifique-se de ter Node.js e npm instalados em seu ambiente de desenvolvimento.
+Certifique-se de ter Node.js instalados em seu ambiente de desenvolvimento.
 
 ___________________________________________________________________________________________________________________________________________________________________________________________________________________
 
