@@ -12,7 +12,7 @@ ________________________________________________________________________________
 
 1. Clone este repositório:
 
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/lubruneliqa/nome-do-repositorio.git
 
 2. Navegue até o diretório do projeto:
 
