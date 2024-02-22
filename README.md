@@ -13,6 +13,7 @@ ________________________________________________________________________________
 1. Clone este repositório:
 
 git clone https://github.com/lubruneliqa/Parana-Banco---Testes-Cypress.git
+
 2. Navegue até o diretório do projeto:
 
 cd nome-do-repositorio
