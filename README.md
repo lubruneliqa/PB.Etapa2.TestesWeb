@@ -1,7 +1,7 @@
 # Etapa Técnica - Parte 2 - Testes Web
 
 Esse repositório faz parte da etapa de avaliação para a vaga de QA e tem como objetivo avaliar os domínios em testes Web. Os testes foram desenvolvidos utilizando a linguagem Javascript e framework Cypress.
-Na pasta cypress/e2e é onde está localizado o arquivo que é responsável pela execução da lógica do teste.
+
 
 ## Pré-requisitos:
 
@@ -22,6 +22,8 @@ cd nome-do-repositorio
 3. Instale as dependências do projeto:
 
 npm install
+
+Na pasta cypress/e2e é onde está localizado o arquivo que é responsável pela execução da lógica do teste.
 ___________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 # Executando os Testes
