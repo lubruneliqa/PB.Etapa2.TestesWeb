@@ -4,22 +4,22 @@ describe('Testes Front na página Challenging DOM Test', () => {
   });
 
   it('Clicar nos 3 botões presentes na tela', () => {
-    cy.get('.button').first().click();
-    cy.get('.button').eq(1).click();
-    cy.get('.button').last().click();
+    cy.get('.button').first().should('be.visible').click();
+    cy.get('.button').eq(1).should('be.visible').click();
+    cy.get('.button').last().should('be.visible').click();
   });
 
-  it('Clicar em todos os botões de Edit e Delete', () => {
+  it('Clicar em todos os botões de Editar', () => {
     cy.get('a[href="#edit"]').each(($deleteButton, index) => {
-      cy.wrap($deleteButton).click();
-      cy.log(`Clicked on Delete button ${index + 1}`);
+      cy.wrap($deleteButton).should('be.visible').click();
+      cy.log(`Clicar no botão de editar ${index + 1}`);
     });
-
-    cy.get('a[href="#delete"]').each(($deleteButton, index) => {
-      cy.wrap($deleteButton).click();
-      cy.log(`Clicked on Delete button ${index + 1}`);
-    });
-  
   });
 
+   it('Clicar em todos os botões de Deletar', () => {
+    cy.get('a[href="#delete"]').each(($deleteButton, index) => {
+      cy.wrap($deleteButton).should('be.visible').click();
+      cy.log(`Clicar no botão de deletar ${index + 1}`);
+    });
+  });
 });
