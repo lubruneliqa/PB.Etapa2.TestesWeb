@@ -1,4 +1,5 @@
 describe('Testes Front na página Challenging DOM Test', () => {
+  
   beforeEach(() => {
     cy.visit('https://the-internet.herokuapp.com/challenging_dom');
   });
@@ -15,7 +16,7 @@ describe('Testes Front na página Challenging DOM Test', () => {
       cy.log(`Clicar no botão de editar ${index + 1}`);
     });
   });
-
+  
    it('Clicar em todos os botões de Deletar', () => {
     cy.get('a[href="#delete"]').each(($deleteButton, index) => {
       cy.wrap($deleteButton).should('be.visible').click();
